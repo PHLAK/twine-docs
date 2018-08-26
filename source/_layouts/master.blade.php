@@ -17,7 +17,7 @@
 
         <div class="container md:flex h-full md:max-w-2xl mx-auto">
             <div class="md:flex w-full mx-auto">
-                <div id="navigation" class="hidden border-b p-6 text-sm w-full md:block md:border-r md:w-1/5">
+                <div id="navigation" class="hidden absolute pin-r bg-white border-l border-b shadow-lg p-6 text-sm md:w-1/5 md:block md:relative md:border-r md:shadow-none">
                     @include('_partials.navigation')
                 </div>
 
