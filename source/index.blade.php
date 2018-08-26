@@ -14,7 +14,7 @@
     <body class="min-h-full font-sans">
         @include('_partials.header')
 
-        <div class="billboard bg-grey-lightest border-b border-grey-lighter">
+        <div class="billboard bg-grey-lightest border-b">
             <div class="container h-full w-full max-w-xl mx-auto py-8 text-center">
                 <h1 class="font-serif font-light text-grey-darker text-4xl tracking-wide mt-0 mb-4">
                     String mainpulation, leveled up!

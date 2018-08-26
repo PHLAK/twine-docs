@@ -15,13 +15,13 @@
     <body class="min-h-full font-sans">
         @include('_partials.header')
 
-        <div class="container flex h-full max-w-2xl mx-auto">
-            <div class="flex w-full mx-auto">
-                <div class="w-1/5 border-r border-grey-lighter p-6 text-sm">
+        <div class="container md:flex h-full md:max-w-2xl mx-auto">
+            <div class="md:flex w-full mx-auto">
+                <div id="navigation" class="hidden border-b p-6 text-sm w-full md:block md:border-r md:w-1/5">
                     @include('_partials.navigation')
                 </div>
 
-                <div class="w-4/5 h-full p-6">
+                <div class="w-full md:w-4/5 h-full p-6">
                     @yield('content')
                 </div>
             </div>
