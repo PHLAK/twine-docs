@@ -17,9 +17,9 @@
 
         <div class="container md:flex h-full md:max-w-2xl mx-auto">
             <div class="md:flex w-full mx-auto">
-                <div id="navigation" class="hidden absolute pin-r bg-white border-l border-b shadow-lg p-6 text-sm md:w-1/5 md:block md:relative md:border-r md:shadow-none">
+                <nav id="navigation" class="hidden absolute pin-r bg-white border-l border-b shadow-lg p-6 text-sm md:w-1/5 md:block md:relative md:border-0 md:border-r md:shadow-none">
                     @include('_partials.navigation')
-                </div>
+                </nav>
 
                 <div class="w-full md:w-4/5 h-full p-6">
                     @yield('content')
