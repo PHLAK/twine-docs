@@ -81,5 +81,9 @@
 
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-8 mb-4">Troubleshooting</h3>
 
-    <p class="my-8">Please report bugs to the [GitHub Issue Tracker](https://github.com/PHLAK/Twine/issues).</p>
+    <p class="my-8">
+        For questions contact <a href="https://twitter.com/PHLAK">@PHLAK</a> on Twitter
+        or via email at <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
+
+    <p class="my-8">Please report bugs to the <a href="https://github.com/PHLAK/Twine/issues">GitHub Issue Tracker</a>.</p>
 @endsection
