@@ -6,3 +6,17 @@
 asciinema-player .control-bar {
     display: none !important;
 }
+
+@media (max-width: 768px) {
+    .terminal {
+        transform: scale(.65);
+        margin: -4rem -8rem !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .terminal {
+        transform: scale(.45);
+        margin: -8rem -12rem !important;
+    }
+}
