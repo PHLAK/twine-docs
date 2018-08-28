@@ -1,11 +1,11 @@
 @extends('_layouts.method')
 
 @section('description')
-    Return part of the string.
+    Append one or more strings to the string.
 @endsection
 
 @section('definition')
-    Twine\Str::substring( int $start [, int $length = null ] ) : Twine\Str
+    Twine\Str::append( string ...$strings ) : Twine\Str
 @endsection
 
 @section('parameters')
@@ -13,24 +13,12 @@
         <tr>
             <td class="p-3">
                 <span class="bg-grey-lighter rounded p-1 font-mono text-grey-darkest">
-                    $start
+                    ...$strings
                 </span>
             </td>
 
             <td class="p-3">
-                Starting position of the substring
-            </td>
-        <tr>
-
-        <tr>
-            <td class="p-3">
-                <span class="bg-grey-lighter rounded p-1 font-mono text-grey-darkest">
-                    $length
-                </span>
-            </td>
-
-            <td class="p-3">
-                Length of substring
+                One or more strings to append
             </td>
         <tr>
     </table>
@@ -40,34 +28,6 @@
     @code
         $string = new Twine\Str('john pinkerton');
 
-        $string->substring(5, 4); // Returns 'pink'
+        $string->append(' jr'); // Returns 'john pinkerton jr'
     @endcode
-@endsection
-
-@section('aliases')
-    <table class="my-4">
-        <tr>
-            <td class="p-3">
-                <code class="language-php">Twine\Str::first($count)</code>
-            </td>
-
-            <td class="text-lg">=</td>
-
-            <td class="p-3">
-                <code class="language-php">Twine\Str::substring(0, $count)</code>
-            </td>
-        </tr>
-
-        <tr>
-            <td class="p-3">
-                <code class="language-php">Twine\Str::last($count)</code>
-            </td>
-
-            <td class="text-lg">=</td>
-
-            <td class="p-3">
-                <code class="language-php">Twine\Str::substring(-$count)</code>
-            </td>
-        </tr>
-    </table>
 @endsection
