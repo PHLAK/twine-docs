@@ -14,72 +14,183 @@
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Installation</h2>
 
     <p class="my-8">
-        Twine can be installed in multiple ways to suit your individual needs.
+        In order to use Twine you will need to install on a per-project basis.
+        The recommended installation method is via PHP's <a href="https://getcomposer.org/">Composer</a>
+        package manager. For help getting started with Composer or if you want
+        to learn more check out the official <a href="https://getcomposer.org/doc/">Composer documentation</a>.
     </p>
 
     <blockquote class="bg-blue-lightest border-l-4 border-blue-light rounded-lg shadow text-sm my-8 p-4">
-        <i class="fa fa-exclamation-circle text-blue-light mr-1"></i>
+        <i class="fa fa-info-circle text-blue-light mr-1"></i>
 
-        <span class="text-grey-darker">Twine requires PHP &gt;= 7.0</span>
+        <span class="text-grey-darker">Twine requires PHP &gt;= 7.0 and Composer</span>
     </blockquote>
 
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-8 mb-4">Composer</h3>
-
     <p class="my-8">
-        The recommended installation method is via PHP's <a href="https://getcomposer.org/">Composer</a>
-        package manager. For help getting started with Composer or just to learn more check out the
-        official <a href="https://getcomposer.org/doc/">Composer documentation</a>.
+        With Composer set up, you can now run
+        <code class="language-plaintext">composer install phlak/twine</code> from your root
+        application directory.
     </p>
-
-    <p class="my-8">
-        Once you have Composer set up, installing Twine is as simple as running
-
-        @code(['language' => 'bash'])
-            composer install phlak/twine
-        @endcode
-
-        from within your application directory.
-    </p>
-
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-8 mb-4">Git</h3>
 
     @code(['language' => 'bash'])
-        git clone https://github.com/PHLAK/Twine.git
+        $ cd /your/awesome/project
+        $ composer install phlak/twine
     @endcode
+
+    <blockquote class="bg-yellow-lightest border-l-4 border-yellow-dark rounded-lg shadow text-sm my-8 p-4">
+        <i class="fa fa-exclamation-triangle text-yellow-dark mr-1"></i>
+
+        <span class="text-grey-darker">
+            Make sure <span class="font-mono">~/.composer/vendor/bin</span> is
+            in your <span class="font-mono">$PATH</span>
+        </span>
+    </blockquote>
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Instantiation</h2>
 
-    <p class="my-8">First, import Twine:</p>
+    <p class="my-8">
+        Using Twine is simple, once installed start by importing the library.
+    </p>
 
     @code
+        &lt;?php
+
         use PHLAK\Twine;
+
+        // ...
     @endcode
 
-    <p class="my-8">Then instantiate a Twine string:</p>
+    <p class="my-8">
+        Next you must instatiate a Twine object, for this you have multiple
+        options. Remember, no one method is better than the rest so choose the
+        one that best suits you and your project's needs. You may even use
+        multiple instantiations methods within the same project.
+    </p>
+
+    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
+        New <span class="font-mono">Twine\Str</span> Object
+    </h3>
+
+    <p class="my-8">
+        The default method of instantiation is to simply new up a
+        <code class="language-php">Twine\Str</code> object passing your string
+        as the first and only parameter.
+    </p>
 
     @code
         $string = new Twine\Str('john pinkerton');
     @endcode
 
-    <p class="my-8">or statically via the <code class="language-php">make()</code> method</p>
+    <blockquote class="items-start bg-blue-lightest border-l-4 border-blue-light rounded-lg shadow text-sm my-8 p-4">
+        <i class="fa fa-info-circle text-blue-light mr-1"></i>
+
+        <span class="text-grey-darker">
+            When passing non-string parameters to the <code class="language-php">Twine\Str</code>
+            object they will be cast as strings internally.
+        </span>
+    </blockquote>
+
+    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
+        Static <span class="font-mono">make()</span> Method
+    </h3>
+
+    <p class="my-8">
+        You may also instantiate a <code class="language-php">Twine\Str</code>
+        object statically via the <code class="language-php">make()</code> method.
+    </p>
 
     @code
         $string = Twine\Str::make('john pinkerton');
     @endcode
 
-    <p class="my-8">or with the <code class="language-php">str()</code> helper method</p>
+    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
+        The <span class="font-mono">str()</span> Helper
+    </h3>
+
+    <p class="my-8">
+        Twine also comes with a global <code class="language-php">str()</code>
+        helper method. The method takes a string as the only parameter and
+        returns a <code class="language-php">Twine\Str</code> object.
+    </p>
 
     @code
         $string = str('john pinkerton');
     @endcode
 
+    <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Usage</h2>
+
+    <p class="my-8">
+        Once you have a concrete <code class="language-php">Twine\Str</code>
+        instance you may treat it like any other string. This includes echoing
+        it or using any of PHPs built in string functions against it.
+    </p>
+
+    @code
+        echo $string; // Echos 'john pinkerton'
+
+        str_shuffle($string) // Returns something like 'enoipo ktnjhnr'
+
+        strlen($string); // Returns 14
+    @endcode
+
+    <p class="my-8">
+        Keep in mind that a <code class="language-php">Twine\Str</code> object
+        is <em>not</em> an actual a string primitive.
+    </p>
+
+    @code
+        is_string($string); // Returns false
+    @endcode
+
+    <p class="my-8">
+        As nice as this is for convenience the real power of Twine comes from
+        it's built in methods.
+    </p>
+
+    @code
+        $str->substr(5, 4); // Returns 'pink'
+
+        $string->uppercaseWords(); // Returns 'John Pinkerton'
+
+        $string->words(); // Returns ['john', 'pinkerton']
+    @endcode
+
+    <p class="my-8">
+        You can even chain these together for advanced functionality and ease of use.
+    </p>
+
+    @code
+        $string->substring(5, 4)->equals('pink'); // Returns true
+
+        $string->prepend('mr. ')->uppercaseWords(); // Returns 'Mr. John Pinkerton'
+    @endcode
+
+    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
+        Usage Tips
+    </h3>
+
+    <p class="my-8">
+        When using the static <code class="language-php">make()</code> or the
+        <code class="language-php">str()</code> helper methods you can chain
+        methods in a single line.
+    </p>
+
+    @code
+        Twine\Str::make('john pinkerton')->uppercaseWords();
+    @endcode
+
+    @code
+        str('john pinkerton')->uppercaseWords();
+    @endcode
+
+
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Miscellaneous</h2>
 
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-8 mb-4">Changelog</h3>
+    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">Changelog</h3>
 
     <p class="my-8">A list of changes can be found on the <a href="https://github.com/PHLAK/Twine/releases">GitHub Releases</a> page.</p>
 
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-8 mb-4">Troubleshooting</h3>
+    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">Troubleshooting</h3>
 
     <p class="my-8">
         For questions contact <a href="https://twitter.com/PHLAK">@PHLAK</a> on Twitter
