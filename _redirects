@@ -1,2 +1,6 @@
 # Redirect default Netlify subdomain to primary domain
-http://phlak-twine.netlify.com/* http://twine.phlak.net/:splat 301!
+http://phlak-twine.netlify.com/* https://twine.phlak.net/:splat 301!
+https://phlak-twine.netlify.com/* https://twine.phlak.net/:splat 301!
+
+# Redirect non-https requests to https
+http://twine.phlak.net/* https://twine.phlak.net/:splat 301!
