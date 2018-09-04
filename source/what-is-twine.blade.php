@@ -1,16 +1,14 @@
 @extends('_layouts.master')
 
 @section('title')
-    Twine Documentation
+    What is Twine?
+@endsection
+
+@section('sub-title')
+    Twine is a simple string manipulation library with an expressive, fluent syntax.
 @endsection
 
 @section('content')
-    <h1 class="font-serif font-light tracking-wide mb-4">What is Twine?</h1>
-
-    <p class="text-grey-dark text-lg mb-8">
-        Twine is a simple string manipulation library with an expressive, fluent syntax.
-    </p>
-
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">
         The Problem
     </h2>

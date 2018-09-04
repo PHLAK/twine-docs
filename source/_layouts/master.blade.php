@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full">
     <head>
-        <title>{{ $title ?? 'Documentation' }} &bull; Twine</title>
+        <title>
+            @hasSection('title')
+                @yield('title') &bull;
+            @endif
+
+            Twine Documentation
+        </title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,6 +28,14 @@
                 </nav>
 
                 <div class="w-full h-full p-6 md:w-4/5">
+                    <h1 class="font-serif font-light tracking-wide mb-4">
+                        @yield('title')
+                    </h1>
+
+                    <p class="text-grey-dark text-lg mb-8">
+                        @yield('sub-title')
+                    </p>
+
                     @yield('content')
                 </div>
             </div>

@@ -4,13 +4,11 @@
     Usage
 @endsection
 
+@section('sub-title')
+    Getting down and dirty with Twine.
+@endsection
+
 @section('content')
-    <h1 class="font-serif font-light tracking-wide mb-4">Usage</h1>
-
-    <p class="text-grey-dark text-lg mb-8">
-        Getting down and dirty with Twine.
-    </p>
-
     <p class="leading-loose my-8">
         Using Twine is simple, once installed start by importing the library.
     </p>

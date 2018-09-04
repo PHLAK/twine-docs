@@ -4,13 +4,11 @@
     Installation
 @endsection
 
+@section('sub-title')
+    Installing Twine is quick and easy with Composer.
+@endsection
+
 @section('content')
-    <h1 class="font-serif font-light tracking-wide mb-4">Installation</h1>
-
-    <p class="text-grey-dark text-lg mb-8">
-        Installing Twine is quick and easy with Composer.
-    </p>
-
     <p class="leading-loose my-8">
         In order to use Twine you will need to install it on a per-project basis.
         The recommended installation method is via PHP's <a href="https://getcomposer.org/">Composer</a>

@@ -1,12 +1,14 @@
 @extends('_layouts.master')
 
+@section('title')
+    {{ $page->getFilename() }}
+@endsection
+
+@section('sub-title')
+    @yield('description')
+@endsection
+
 @section('content')
-    <h1 class="font-serif font-light tracking-wide mb-4">{{ $page->getFilename() }}</h1>
-
-    <p class="text-grey-dark text-lg mb-8">
-        @yield('description')
-    </p>
-
     <div class="my-8 text-lg">
         @code
             @yield('definition')

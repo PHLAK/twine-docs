@@ -4,13 +4,11 @@
     Method Chaining
 @endsection
 
+@section('sub-title')
+    Unlocking the power of Twine.
+@endsection
+
 @section('content')
-    <h1 class="font-serif font-light tracking-wide mb-4">Method Chaining</h1>
-
-    <p class="text-grey-dark text-lg mb-8">
-        Unlocking the power of Twine.
-    </p>
-
     <p class="leading-loose my-8">A Twine string can be manipulated fluently by chaining methods.</p>
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Example Method Chains</h2>
