@@ -1,12 +1,24 @@
 <div class="mb-8">
     <p class="mb-2 uppercase tracking-wide text-grey font-bold">
-        Documentation
+        Getting Started
     </p>
 
     <ul class="list-reset ml-2">
         <li class="mb-2">
-            <a href="/getting-started" class="block no-underline hover:underline text-grey-darkest">
-                Getting Started
+            <a href="/what-is-twine" class="block no-underline hover:underline text-grey-darkest">
+                What is Twine?
+            </a>
+        </li>
+
+        <li class="mb-2">
+            <a href="/installation" class="block no-underline hover:underline text-grey-darkest">
+                Installation
+            </a>
+        </li>
+
+        <li class="mb-2">
+            <a href="/usage" class="block no-underline hover:underline text-grey-darkest">
+                Usage
             </a>
         </li>
 

@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="my-4">
-                    <a href="/getting-started" class="inline-block bg-white hover:bg-grey-darker border-2 border-grey-darker rounded-full shadow hover:shadow-md font-semibold text-grey-darker hover:text-white no-underline m-2 px-8 py-4">
+                    <a href="/what-is-twine" class="inline-block bg-white hover:bg-grey-darker border-2 border-grey-darker rounded-full shadow hover:shadow-md font-semibold text-grey-darker hover:text-white no-underline m-2 px-8 py-4">
                         View the Docs
                     </a>
 

@@ -8,7 +8,7 @@
     <h1 class="font-serif font-light tracking-wide mb-4">Method Chaining</h1>
 
     <p class="text-grey-dark text-lg mb-8">
-        Unlock the power of Twine.
+        Unlocking the power of Twine.
     </p>
 
     <p class="leading-loose my-8">A Twine string can be manipulated fluently by chaining methods.</p>
