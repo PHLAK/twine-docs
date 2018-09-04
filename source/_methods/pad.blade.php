@@ -5,7 +5,7 @@
 @endsection
 
 @section('definition')
-Twine\Str::pad( int $length [, string $padding = ' ' [, int $mode = Twine\Config\Pad::RIGHT ]] ) : Twine\Str
+    Twine\Str::pad( int $length [, string $padding = ' ' [, int $mode = Twine\Config\Pad::RIGHT ]] ) : Twine\Str
 @endsection
 
 @section('parameters')
