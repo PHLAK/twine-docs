@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="mt-4 mt-2">Available url modes:</p>
+    <p class="my-8">Available url modes:</p>
 
     <table>
         <tr>

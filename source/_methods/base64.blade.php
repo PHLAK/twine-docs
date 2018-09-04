@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="mt-4 mt-2">Available base64 modes:</p>
+    <p class="my-8">Available base64 modes:</p>
 
     <table>
         <tr>
