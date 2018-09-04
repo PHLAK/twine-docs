@@ -14,7 +14,7 @@
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Installation</h2>
 
     <p class="leading-loose my-8">
-        In order to use Twine you will need to install on a per-project basis.
+        In order to use Twine you will need to install it on a per-project basis.
         The recommended installation method is via PHP's <a href="https://getcomposer.org/">Composer</a>
         package manager. For help getting started with Composer or if you want
         to learn more check out the official <a href="https://getcomposer.org/doc/">Composer documentation</a>.
@@ -60,10 +60,10 @@
     @endcode
 
     <p class="leading-loose my-8">
-        Next you must instatiate a Twine object, for this you have multiple
-        options. Remember, no one method is better than the rest so choose the
-        one that best suits you and your project's needs. You may even use
-        multiple instantiations methods within the same project.
+        Next you must instatiate a Twine object. There are multiple ways to
+        accomplish this. No one method is better than the rest so choose the one
+        that best suits you and your project's needs. You may even use multiple
+        instantiation methods within the same project or file.
     </p>
 
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
@@ -84,8 +84,8 @@
         <i class="fa fa-info-circle text-blue-light mr-1"></i>
 
         <span class="text-grey-darker">
-            When passing non-string parameters to the <code class="language-php">Twine\Str</code>
-            object they will be cast as strings internally.
+            When passing a non-string parameter to the <code class="language-php">Twine\Str</code>
+            object it will be cast as a string internally.
         </span>
     </blockquote>
 
@@ -142,8 +142,8 @@
     @endcode
 
     <p class="leading-loose my-8">
-        As nice as this is for convenience the real power of Twine comes from
-        it's built in methods.
+        At this point you're ready to start using Twine by calling any of it's
+        many built in methods.
     </p>
 
     @code
@@ -173,9 +173,9 @@
     </h3>
 
     <p class="leading-loose my-8">
-        When using the static <code class="language-php">make()</code> or the
-        <code class="language-php">str()</code> helper methods you can chain
-        methods in a single line.
+        When using the static <code class="language-php">make()</code> method or
+        the <code class="language-php">str()</code> helper you can chain methods
+        immediately after in a single line.
     </p>
 
     @code
