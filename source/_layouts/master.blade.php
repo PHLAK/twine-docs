@@ -21,7 +21,7 @@
                     @include('_partials.navigation')
                 </nav>
 
-                <div class="w-full h-full p-6 leading-normal md:w-4/5">
+                <div class="w-full h-full p-6 md:w-4/5">
                     @yield('content')
                 </div>
             </div>

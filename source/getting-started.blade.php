@@ -13,7 +13,7 @@
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Installation</h2>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         In order to use Twine you will need to install on a per-project basis.
         The recommended installation method is via PHP's <a href="https://getcomposer.org/">Composer</a>
         package manager. For help getting started with Composer or if you want
@@ -26,7 +26,7 @@
         <span class="text-grey-darker">Twine requires PHP &gt;= 7.0 and Composer</span>
     </blockquote>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         With Composer set up, run <code class="language-plaintext">composer install phlak/twine</code>
         from your application's root directory to install Twine.
     </p>
@@ -47,7 +47,7 @@
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Instantiation</h2>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         Using Twine is simple, once installed start by importing the library.
     </p>
 
@@ -59,7 +59,7 @@
         // ...
     @endcode
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         Next you must instatiate a Twine object, for this you have multiple
         options. Remember, no one method is better than the rest so choose the
         one that best suits you and your project's needs. You may even use
@@ -70,7 +70,7 @@
         New <span class="font-mono">Twine\Str</span> Object
     </h3>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         The default method of instantiation is to simply new up a
         <code class="language-php">Twine\Str</code> object passing your string
         as the first and only parameter.
@@ -93,7 +93,7 @@
         Static <span class="font-mono">make()</span> Method
     </h3>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         You may also instantiate a <code class="language-php">Twine\Str</code>
         object statically via the <code class="language-php">make()</code> method.
     </p>
@@ -106,7 +106,7 @@
         The <span class="font-mono">str()</span> Helper
     </h3>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         Twine also comes with a global <code class="language-php">str()</code>
         helper method. The method takes a string as the only parameter and
         returns a <code class="language-php">Twine\Str</code> object.
@@ -118,7 +118,7 @@
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Usage</h2>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         Once you have a concrete <code class="language-php">Twine\Str</code>
         instance you may treat it like any other string. This includes echoing
         it or using any of PHPs built in string functions against it.
@@ -132,7 +132,7 @@
         strlen($string); // Returns 14
     @endcode
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         Keep in mind that a <code class="language-php">Twine\Str</code> object
         is <em>not</em> an actual a string primitive.
     </p>
@@ -141,7 +141,7 @@
         is_string($string); // Returns false
     @endcode
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         As nice as this is for convenience the real power of Twine comes from
         it's built in methods.
     </p>
@@ -154,7 +154,7 @@
         $string->words(); // Returns ['john', 'pinkerton']
     @endcode
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         You can even chain these together for advanced functionality and ease of use.
     </p>
 
@@ -168,7 +168,7 @@
         Usage Tips
     </h3>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         When using the static <code class="language-php">make()</code> or the
         <code class="language-php">str()</code> helper methods you can chain
         methods in a single line.
@@ -187,13 +187,13 @@
 
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">Changelog</h3>
 
-    <p class="my-8">A list of changes can be found on the <a href="https://github.com/PHLAK/Twine/releases">GitHub Releases</a> page.</p>
+    <p class="leading-loose my-8">A list of changes can be found on the <a href="https://github.com/PHLAK/Twine/releases">GitHub Releases</a> page.</p>
 
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">Troubleshooting</h3>
 
-    <p class="my-8">
+    <p class="leading-loose my-8">
         For questions contact <a href="https://twitter.com/PHLAK">@PHLAK</a> on Twitter
         or via email at <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
 
-    <p class="my-8">Please report bugs to the <a href="https://github.com/PHLAK/Twine/issues">GitHub Issue Tracker</a>.</p>
+    <p class="leading-loose my-8">Please report bugs to the <a href="https://github.com/PHLAK/Twine/issues">GitHub Issue Tracker</a>.</p>
 @endsection

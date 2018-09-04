@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available hex modes:</p>
+    <p class="leading-loose my-8">Available hex modes:</p>
 
     <table>
         <tr>

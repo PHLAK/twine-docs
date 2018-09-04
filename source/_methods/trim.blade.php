@@ -35,7 +35,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available trim modes:</p>
+    <p class="leading-loose my-8">Available trim modes:</p>
 
     <table>
         <tr>

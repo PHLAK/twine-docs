@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available md5 modes</p>
+    <p class="leading-loose my-8">Available md5 modes</p>
 
     <table>
         <tr>

@@ -35,7 +35,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Supported cipher methods:</p>
+    <p class="leading-loose my-8">Supported cipher methods:</p>
 
     <ul class="my-4">
         <li class="my-2">

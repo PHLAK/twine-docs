@@ -47,7 +47,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available pad modes</p>
+    <p class="leading-loose my-8">Available pad modes</p>
 
     <table>
         <tr>

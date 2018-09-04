@@ -47,7 +47,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available wrap modes:</p>
+    <p class="leading-loose my-8">Available wrap modes:</p>
 
     <table>
         <tr>

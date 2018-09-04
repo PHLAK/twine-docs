@@ -11,11 +11,11 @@
         Unlock the power of Twine.
     </p>
 
-    <p class="my-8">A Twine string can be manipulated fluently by chaining methods.</p>
+    <p class="leading-loose my-8">A Twine string can be manipulated fluently by chaining methods.</p>
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Example Method Chains</h2>
 
-    <p class="my-8">Perform a substring comparison.</p>
+    <p class="leading-loose my-8">Perform a substring comparison.</p>
 
     @code
         $string = new Twine\Str('john pinkerton');
@@ -23,7 +23,7 @@
         $string->substring(5, 4)->equals('pink'); // Returns true
     @endcode
 
-    <p class="my-8">Encode a file in compliance with <a href="https://tools.ietf.org/html/rfc2045">RFC 2045</a>.</p>
+    <p class="leading-loose my-8">Encode a file in compliance with <a href="https://tools.ietf.org/html/rfc2045">RFC 2045</a>.</p>
 
     @code
         $string = new Twine\Str(file_get_contents('garbage.bin'));

@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available sha256 modes</p>
+    <p class="leading-loose my-8">Available sha256 modes</p>
 
     <table>
         <tr>

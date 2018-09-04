@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available url modes:</p>
+    <p class="leading-loose my-8">Available url modes:</p>
 
     <table>
         <tr>

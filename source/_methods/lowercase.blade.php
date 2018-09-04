@@ -23,7 +23,7 @@
         <tr>
     </table>
 
-    <p class="my-8">Available lowercase modes:</p>
+    <p class="leading-loose my-8">Available lowercase modes:</p>
 
     <table>
         <tr>
