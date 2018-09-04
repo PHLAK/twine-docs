@@ -27,9 +27,8 @@
     </blockquote>
 
     <p class="my-8">
-        With Composer set up, you can now run
-        <code class="language-plaintext">composer install phlak/twine</code> from your root
-        application directory.
+        With Composer set up, run <code class="language-plaintext">composer install phlak/twine</code>
+        from your application's root directory to install Twine.
     </p>
 
     @code(['language' => 'bash'])
