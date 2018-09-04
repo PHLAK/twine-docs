@@ -164,6 +164,10 @@
         $string->prepend('mr. ')->uppercaseWords(); // Returns 'Mr. John Pinkerton'
     @endcode
 
+    <p class="leading-loose my-8">
+        See the <a href="/method-chaining">Method Chaining</a> section for more info and examples.
+    </p>
+
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
         Usage Tips
     </h3>
