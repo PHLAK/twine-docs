@@ -28,10 +28,6 @@
         instantiation methods within the same project or file.
     </p>
 
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
-        New <span class="font-mono">Twine\Str</span> Object
-    </h3>
-
     <p class="leading-loose my-8">
         The default method of instantiation is to simply new up a
         <code class="language-php">Twine\Str</code> object passing your string
@@ -51,10 +47,6 @@
         </span>
     </blockquote>
 
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
-        Static <span class="font-mono">make()</span> Method
-    </h3>
-
     <p class="leading-loose my-8">
         You may also instantiate a <code class="language-php">Twine\Str</code>
         object statically via the <code class="language-php">make()</code> method.
@@ -63,10 +55,6 @@
     @code
         $string = Twine\Str::make('john pinkerton');
     @endcode
-
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
-        The <span class="font-mono">str()</span> Helper
-    </h3>
 
     <p class="leading-loose my-8">
         Twine also comes with a global <code class="language-php">str()</code>
@@ -77,8 +65,6 @@
     @code
         $string = str('john pinkerton');
     @endcode
-
-    <hr class="border-t border-grey-light my-16">
 
     <p class="leading-loose my-8">
         Once you have a concrete <code class="language-php">Twine\Str</code>
