@@ -191,13 +191,18 @@
 
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">Changelog</h3>
 
-    <p class="leading-loose my-8">A list of changes can be found on the <a href="https://github.com/PHLAK/Twine/releases">GitHub Releases</a> page.</p>
+    <p class="leading-loose my-8">
+        A list of changes can be found on the <a href="https://github.com/PHLAK/Twine/releases">GitHub Releases</a> page.
+    </p>
 
     <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">Troubleshooting</h3>
 
     <p class="leading-loose my-8">
         For questions contact <a href="https://twitter.com/PHLAK">@PHLAK</a> on Twitter
-        or via email at <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a></p>
+        or via email at <a href="mailto:Chris@ChrisKankiewicz.com">Chris@ChrisKankiewicz.com</a>
+    </p>
 
-    <p class="leading-loose my-8">Please report bugs to the <a href="https://github.com/PHLAK/Twine/issues">GitHub Issue Tracker</a>.</p>
+    <p class="leading-loose my-8">
+        Please report bugs to the <a href="https://github.com/PHLAK/Twine/issues">GitHub Issue Tracker</a>.
+    </p>
 @endsection
