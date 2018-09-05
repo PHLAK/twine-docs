@@ -27,6 +27,12 @@
                 Method Chaining
             </a>
         </li>
+
+        <li class="mb-2">
+            <a href="/troubleshooting" class="block no-underline hover:underline text-grey-darkest">
+                Troubleshooting
+            </a>
+        </li>
     </ul>
 </div>
 
