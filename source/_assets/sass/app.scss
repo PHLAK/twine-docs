@@ -9,14 +9,14 @@ asciinema-player .control-bar {
 
 @media (max-width: 768px) {
     .terminal {
-        transform: scale(.65);
-        margin: -4rem -8rem !important;
+        transform: scale(.75);
+        margin: -3rem -2rem !important;
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 576px) {
     .terminal {
-        transform: scale(.45);
-        margin: -8rem -12rem !important;
+        transform: scale(.5);
+        margin: -6.5rem -10rem !important;
     }
 }

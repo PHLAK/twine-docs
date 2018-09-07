@@ -16,7 +16,7 @@
 
         <div class="billboard bg-grey-lightest border-b">
             <div class="container h-full w-full max-w-xl mx-auto py-8 text-center">
-                <h1 class="font-serif font-light text-grey-darker text-4xl tracking-wide mt-0 mb-4">
+                <h1 class="font-serif font-light text-grey-darker text-xl sm:text-3xl md:text-4xl tracking-wide mt-0 mb-4">
                     String mainpulation, leveled up!
                 </h1>
 
@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="p-1 roiunded-b-lg" style="background-color: #121314">
-                        <asciinema-player src="/assets/twine.cast" autoplay="true" loop="1" font-size="1rem"></asciinema-player>
+                        <asciinema-player src="/assets/twine.cast" autoplay="true" loop="1" font-size=".875rem"></asciinema-player>
                     </div>
                 </div>
 

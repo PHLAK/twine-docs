@@ -2,7 +2,7 @@
 
 <div class="flex bg-white border-b h-16 items-center">
     <div class="w-full max-w-2xl mx-auto flex items-center">
-        <div class="w-4/5 px-4 md:w-2/5">
+        <div class="w-4/5 px-4 sm:w-2/5">
             <a href="/" class="my-1 no-underline text-2xl text-red-dark">
                 Twine
             </a>
@@ -18,13 +18,13 @@
             </span>
         </div>
 
-        <div class="w-1/5 px-4 text-right md:w-3/5">
-            <span class="hidden font-mono text-grey-dark md:inline-block">
+        <div class="w-1/5 px-4 text-right sm:w-3/5">
+            <span class="hidden font-mono text-grey-dark text-sm md:text-base sm:inline-block">
                 composer install phlak/twine
             </span>
 
             @unless ($page->getFilename() == 'index')
-                <button onclick="toggleNavigation()" class="inline-block border rounded px-3 py-2 hover:bg-grey-lighter md:hidden">
+                <button onclick="toggleNavigation()" class="inline-block border rounded ml-2 px-3 py-2 hover:bg-grey-lighter md:hidden">
                     <i class="fas fa-bars text-grey"></i>
                 </button>
 
