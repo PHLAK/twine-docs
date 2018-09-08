@@ -27,7 +27,7 @@
     @code
         $contents = file_get_contents('garbage.bin');
 
-        return str_replace("\n", '<br>', wordwrap(base64_encode($contents), 80)));
+        return str_replace("\n", '&lt;br&gt;', wordwrap(base64_encode($contents), 80)));
     @endcode
 
     <p class="leading-loose my-8">
@@ -71,7 +71,7 @@
         $base64 = base64_encode($contents);
         $wrapped = wordwrap($base64, 80);
 
-        return str_replace("\n", '<br>', $wrapped);
+        return str_replace("\n", '&lt;br&gt;', $wrapped);
     @endcode
 
     <p class="leading-loose my-8">
