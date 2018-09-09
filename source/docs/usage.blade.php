@@ -134,3 +134,25 @@
         str('john pinkerton')->uppercaseWords();
     @endcode
 @endsection
+
+@section('footer')
+    <div class="flex flex-row justify-between items-center">
+        <div class="flex-auto text-left">
+            @button(['link' => '/docs/installation'])
+                <i class="fas fa-angle-left"></i> Installation
+            @endbutton
+        </div>
+
+        <div class="flex-auto hidden text-center sm:inline-block">
+            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
+                <i class="far fa-edit"></i> Edit this Page
+            @endbutton
+        </div>
+
+        <div class="flex-auto text-right">
+            @button(['link' => '/docs/method-chaining'])
+                Method Chaining <i class="fas fa-angle-right"></i>
+            @endbutton
+        </div>
+    </div>
+@endsection

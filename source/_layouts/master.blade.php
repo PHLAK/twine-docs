@@ -37,6 +37,12 @@
                     </p>
 
                     @yield('content')
+
+                    @hasSection('footer')
+                        <div class="border-t mt-8 py-8">
+                            @yield('footer')
+                        </div>
+                    @endif
                 </div>
             </div>
         </div>

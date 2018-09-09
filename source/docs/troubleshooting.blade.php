@@ -22,3 +22,21 @@
         You can find the Twine documentation source code on <a href="https://github.com/PHLAK/twine-docs">GitHub</a>.
     </p>
 @endsection
+
+@section('footer')
+    <div class="flex flex-row justify-between items-center">
+        <div class="flex-1 text-left">
+            @button(['link' => '/docs/method-chaining'])
+                <i class="fas fa-angle-left"></i> Method Chaining
+            @endbutton
+        </div>
+
+        <div class="flex-1 hidden text-center sm:inline-block">
+            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
+                <i class="far fa-edit"></i> Edit this Page
+            @endbutton
+        </div>
+
+        <div class="flex-1 text-right"></div>
+    </div>
+@endsection

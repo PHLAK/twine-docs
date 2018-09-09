@@ -29,3 +29,25 @@
         $string->base64()->wrap(76, "\r\n", Twine\Config\Wrap::HARD);
     @endcode
 @endsection
+
+@section('footer')
+    <div class="flex flex-row justify-between items-center">
+        <div class="flex-auto text-left">
+            @button(['link' => '/docs/usage'])
+                <i class="fas fa-angle-left"></i> Usage
+            @endbutton
+        </div>
+
+        <div class="flex-auto hidden text-center sm:inline-block">
+            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
+                <i class="far fa-edit"></i> Edit this Page
+            @endbutton
+        </div>
+
+        <div class="flex-auto text-right">
+            @button(['link' => '/docs/troubleshooting'])
+                Troubleshooting <i class="fas fa-angle-right"></i>
+            @endbutton
+        </div>
+    </div>
+@endsection

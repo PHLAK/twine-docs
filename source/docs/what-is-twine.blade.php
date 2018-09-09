@@ -109,6 +109,24 @@
     </p>
 
     <p class="leading-loose my-8">
-        So what are you waiting for?! <a href="/installation">Get started with Twine</a>!
+        So what are you waiting for?! <a href="/docs/installation">Get started with Twine</a>!
     </p>
+@endsection
+
+@section('footer')
+    <div class="flex flex-row justify-between items-center">
+        <div class="flex-1 text-left"></div>
+
+        <div class="flex-1 hidden text-center sm:inline-block">
+            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
+                <i class="far fa-edit"></i> Edit this Page
+            @endbutton
+        </div>
+
+        <div class="flex-1 text-right">
+            @button(['link' => '/docs/installation'])
+                Installation <i class="fas fa-angle-right"></i>
+            @endbutton
+        </div>
+    </div>
 @endsection

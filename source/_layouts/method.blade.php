@@ -33,3 +33,13 @@
         @yield('aliases')
     @endif
 @endsection
+
+@section('footer')
+    <div class="flex flex-row justify-between items-center">
+        <div class="flex-auto hidden text-center sm:inline-block">
+            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/_methods/{$page->getFilename()}.{$page->getExtension()}"])
+                <i class="far fa-edit"></i> Edit this Page
+            @endbutton
+        </div>
+    </div>
+@endsection

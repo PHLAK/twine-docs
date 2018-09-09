@@ -3,5 +3,9 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'collections' => ['methods']
+    'collections' => [
+        'methods' => [
+            'path' => 'docs/methods/{filename}'
+        ]
+    ]
 ];

@@ -1,7 +1,5 @@
 @extends('_layouts.method')
 
-@extends('_layouts.method')
-
 @section('description')
     Return part of the string occurring after a specific string.
 @endsection
