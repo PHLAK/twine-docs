@@ -13,8 +13,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/light.css" integrity="sha384-9QuzjQIM/Un6pY9bKVJGLW8PauASO8Mf9y3QcsHhfZSXNyXGoXt/POh3VLeiv4mw" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-AOiME8p6xSUbTO/93cbYmpOihKrqxrLjvkT2lOpIov+udKmjXXXFLfpKeqwTjNTC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-Yz2UJoJEWBkb0TBzOd2kozX5/G4+z5WzWMMZz1Np2vwnFjF5FypnmBUBPH2gUa1F" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ mix('css/app.css', 'assets/build') }}">
+
         <script src="{{ mix('js/app.js', 'assets/build') }}"></script>
     </head>
 
@@ -28,9 +31,15 @@
                 </nav>
 
                 <div class="w-full h-full p-6 md:w-4/5">
-                    <h1 class="font-serif font-light tracking-wide mb-4">
-                        @yield('title')
-                    </h1>
+                    <div class="flex flex-row justify-between items-center mb-4">
+                        <h1 class="font-serif font-light tracking-wide">
+                            @yield('title')
+                        </h1>
+
+                        @button(['link' => $page->editLink()])
+                            <i class="fal fa-edit"></i> <span class="hidden sm:inline-block">Improve this Page</span>
+                        @endbutton
+                    </div>
 
                     <p class="text-grey-dark text-lg mb-8">
                         @yield('sub-title')

@@ -117,15 +117,9 @@
     <div class="flex flex-row justify-between items-center">
         <div class="flex-1 text-left"></div>
 
-        <div class="flex-1 hidden text-center sm:inline-block">
-            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
-                <i class="far fa-edit"></i> Edit this Page
-            @endbutton
-        </div>
-
         <div class="flex-1 text-right">
             @button(['link' => '/docs/installation'])
-                Installation <i class="fas fa-angle-right"></i>
+                Installation <i class="fal fa-angle-right"></i>
             @endbutton
         </div>
     </div>

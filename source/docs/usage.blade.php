@@ -39,7 +39,7 @@
     @endcode
 
     <blockquote class="items-start bg-blue-lightest border-l-4 border-blue-light rounded-lg shadow text-sm my-8 p-4">
-        <i class="fa fa-info-circle text-blue-light mr-1"></i>
+        <i class="fal fa-info-circle text-blue-light mr-1"></i>
 
         <span class="text-grey-darker">
             When passing a non-string parameter to the <code class="language-php">Twine\Str</code>
@@ -139,19 +139,13 @@
     <div class="flex flex-row justify-between items-center">
         <div class="flex-auto text-left">
             @button(['link' => '/docs/installation'])
-                <i class="fas fa-angle-left"></i> Installation
-            @endbutton
-        </div>
-
-        <div class="flex-auto hidden text-center sm:inline-block">
-            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
-                <i class="far fa-edit"></i> Edit this Page
+                <i class="fal fa-angle-left"></i> Installation
             @endbutton
         </div>
 
         <div class="flex-auto text-right">
             @button(['link' => '/docs/method-chaining'])
-                Method Chaining <i class="fas fa-angle-right"></i>
+                Method Chaining <i class="fal fa-angle-right"></i>
             @endbutton
         </div>
     </div>

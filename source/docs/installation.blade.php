@@ -17,7 +17,7 @@
     </p>
 
     <blockquote class="bg-blue-lightest border-l-4 border-blue-light rounded-lg shadow text-sm my-8 p-4">
-        <i class="fa fa-info-circle text-blue-light mr-1"></i>
+        <i class="fal fa-info-circle text-blue-light mr-1"></i>
 
         <span class="text-grey-darker">Twine requires PHP &gt;= 7.0 and Composer</span>
     </blockquote>
@@ -33,7 +33,7 @@
     @endcode
 
     <blockquote class="bg-yellow-lightest border-l-4 border-yellow-dark rounded-lg shadow text-sm my-8 p-4">
-        <i class="fa fa-exclamation-triangle text-yellow-dark mr-1"></i>
+        <i class="fal fa-exclamation-triangle text-yellow-dark mr-1"></i>
 
         <span class="text-grey-darker">
             Make sure <span class="font-mono">~/.composer/vendor/bin</span> is
@@ -46,19 +46,13 @@
     <div class="flex flex-row justify-between items-center">
         <div class="flex-auto text-left">
             @button(['link' => '/docs/what-is-twine'])
-                <i class="fas fa-angle-left"></i> What is Twine?
-            @endbutton
-        </div>
-
-        <div class="flex-auto hidden text-center sm:inline-block">
-            @button(['link' => "https://github.com/PHLAK/twine-docs/edit/master/source/docs/{$page->getFilename()}.{$page->getExtension()}"])
-                <i class="far fa-edit"></i> Edit this Page
+                <i class="fal fa-angle-left"></i> What is Twine?
             @endbutton
         </div>
 
         <div class="flex-auto text-right">
             @button(['link' => '/docs/usage'])
-                Usage <i class="fas fa-angle-right"></i>
+                Usage <i class="fal fa-angle-right"></i>
             @endbutton
         </div>
     </div>
