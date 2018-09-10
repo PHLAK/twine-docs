@@ -25,7 +25,7 @@
 
             @unless ($page->getFilename() == 'index')
                 <button onclick="toggleNavigation()" class="inline-block border rounded ml-2 px-3 py-2 hover:bg-grey-lighter md:hidden">
-                    <i class="fas fa-bars text-grey"></i>
+                    <i class="fal fa-bars text-grey"></i>
                 </button>
 
                 <script>
