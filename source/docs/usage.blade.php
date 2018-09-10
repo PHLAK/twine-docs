@@ -113,7 +113,7 @@
     @endcode
 
     <p class="leading-loose my-8">
-        See the <a href="/method-chaining">Method Chaining</a> section for more info and examples.
+        See the <a href="/docs/method-chaining">Method Chaining</a> section for more info and examples.
     </p>
 
     <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">
