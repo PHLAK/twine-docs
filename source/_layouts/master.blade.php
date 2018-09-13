@@ -30,7 +30,7 @@
                     @include('_partials.navigation')
                 </nav>
 
-                <div class="w-full h-full p-6 md:w-4/5">
+                <div class="docSearch-content w-full h-full p-6 md:w-4/5">
                     <div class="flex flex-row justify-between items-center mb-4">
                         <h1 class="font-serif font-light tracking-wide">
                             @yield('title')
