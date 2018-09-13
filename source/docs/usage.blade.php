@@ -95,7 +95,7 @@
     </p>
 
     @code
-        $str->substr(5, 4); // Returns 'pink'
+        $str->substring(5, 4); // Returns 'pink'
 
         $string->uppercaseWords(); // Returns 'John Pinkerton'
 
