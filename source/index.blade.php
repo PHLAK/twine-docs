@@ -12,7 +12,23 @@
     </head>
 
     <body class="min-h-full font-sans">
-        @include('_partials.header')
+        <div class="h-1 bg-red-dark"></div>
+
+        <div class="flex bg-white border-b h-16 items-center">
+            <div class="w-full max-w-2xl mx-auto flex items-center">
+                <div class="w-1/5 px-4">
+                    <a href="/" class="my-1 no-underline text-2xl text-red-dark">
+                        Twine
+                    </a>
+                </div>
+
+                <div class="w-4/5 px-4 text-right">
+                    <span class="font-mono text-grey-dark text-base">
+                        composer install phlak/twine
+                    </span>
+                </div>
+            </div>
+        </div>
 
         <div class="billboard bg-grey-lightest border-b">
             <div class="container h-full w-full max-w-xl mx-auto py-8 text-center">

@@ -13,6 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/light.css" integrity="sha384-9QuzjQIM/Un6pY9bKVJGLW8PauASO8Mf9y3QcsHhfZSXNyXGoXt/POh3VLeiv4mw" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-AOiME8p6xSUbTO/93cbYmpOihKrqxrLjvkT2lOpIov+udKmjXXXFLfpKeqwTjNTC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-Yz2UJoJEWBkb0TBzOd2kozX5/G4+z5WzWMMZz1Np2vwnFjF5FypnmBUBPH2gUa1F" crossorigin="anonymous">
@@ -24,13 +25,13 @@
     <body class="min-h-full font-sans">
         @include('_partials.header')
 
-        <div class="container md:flex h-full md:max-w-2xl mx-auto">
+        <div class="container md:flex h-full max-w-2xl mx-auto">
             <div class="md:flex w-full mx-auto">
-                <nav id="navigation" class="hidden absolute pin-r bg-white border-l border-b shadow-lg p-6 text-sm md:w-1/5 md:block md:relative md:border-0 md:border-r md:shadow-none">
+                <nav id="navigation" class="hidden absolute pin-r bg-white border-l border-b shadow-lg p-4 text-sm md:w-1/5 md:block md:relative md:border-0 md:border-r md:px-4 md:shadow-none">
                     @include('_partials.navigation')
                 </nav>
 
-                <div class="docSearch-content w-full h-full p-6 md:w-4/5">
+                <div class="docSearch-content w-full h-full p-4 md:w-4/5 md:px-6">
                     <div class="flex flex-row justify-between items-center mb-4">
                         <h1 class="font-serif font-light tracking-wide">
                             @yield('title')
@@ -55,5 +56,14 @@
                 </div>
             </div>
         </div>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+        <script type="text/javascript">
+            docsearch({
+                apiKey: '1ffce654b0ba7cf0820e1921ccae93be',
+                indexName: 'twine',
+                inputSelector: '#docsearch'
+            });
+        </script>
     </body>
 </html>
