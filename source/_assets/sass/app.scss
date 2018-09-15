@@ -68,4 +68,8 @@ asciinema-player .control-bar {
         max-width: 145% !important;
         min-width: 0 !important;
     }
+
+    .algolia-docsearch-suggestion--subcategory-column {
+        display: none !important;
+    }
 }
