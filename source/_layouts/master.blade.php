@@ -60,6 +60,8 @@
                 indexName: 'twine',
                 inputSelector: '#docsearch'
             });
+
+            @stack('javascript')
         </script>
     </body>
 </html>

@@ -30,18 +30,18 @@
             <button onclick="toggleNavigation()" class="border rounded self-end ml-2 px-3 py-2 hover:bg-grey-lighter md:hidden">
                 <i class="fal fa-bars text-grey"></i>
             </button>
-
-            <script>
-                function toggleNavigation() {
-                    var navigation = document.getElementById('navigation');
-
-                    if (navigation.style.display !== 'block') {
-                        navigation.style.display = 'block';
-                    } else {
-                        navigation.style.display = 'none';
-                    }
-                }
-            </script>
         </div>
     </div>
 </div>
+
+@push('javascript')
+    function toggleNavigation() {
+        var navigation = document.getElementById('navigation');
+
+        if (navigation.style.display !== 'block') {
+            navigation.style.display = 'block';
+        } else {
+            navigation.style.display = 'none';
+        }
+    }
+@endpush
