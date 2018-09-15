@@ -38,7 +38,7 @@
                         @endbutton
                     </div>
 
-                    <p class="text-grey-dark text-lg mb-8">
+                    <p class="text-grey-dark text-lg leading-normal mb-8">
                         @yield('sub-title')
                     </p>
 
