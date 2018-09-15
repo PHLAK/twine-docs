@@ -19,17 +19,19 @@
         </div>
 
         <div class="flex flex-row justify-end w-4/5 px-4 md:px-6">
-            <div class="flex items-center border rounded-full shadow-inner px-3 py-1 w-full md:max-w-xs">
-                <i class="fal fa-search fa-fw text-grey"></i>
-                <input type="text" placeholder="Search the docs" id="docsearch" class="text-grey-darker px-1 py-1 w-full focus:outline-none" autocomplete="off" spellcheck="false">
+            <div class="relative w-full md:max-w-xs">
+                <div class="flex items-center absolute pin-l pin-y ml-4 text-sm text-grey z-10">
+                    <i class="fal fa-search fa-fw"></i>
+                </div>
+
+                <input type="text" placeholder="Search the docs" id="docsearch" class="border rounded-full shadow-inner text-grey-darker px-3 pl-10 py-2 w-full focus:outline-none" autocomplete="off" spellcheck="false">
             </div>
 
-            @unless ($page->getFilename() == 'index')
-                <button onclick="toggleNavigation()" class="border rounded self-end ml-2 px-3 py-2 hover:bg-grey-lighter md:hidden">
-                    <i class="fal fa-bars text-grey"></i>
-                </button>
+            <button onclick="toggleNavigation()" class="border rounded self-end ml-2 px-3 py-2 hover:bg-grey-lighter md:hidden">
+                <i class="fal fa-bars text-grey"></i>
+            </button>
 
-                <script>
+            <script>
                 function toggleNavigation() {
                     var navigation = document.getElementById('navigation');
 
@@ -39,8 +41,7 @@
                         navigation.style.display = 'none';
                     }
                 }
-                </script>
-            @endunless
+            </script>
         </div>
     </div>
 </div>
