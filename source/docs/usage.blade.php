@@ -38,14 +38,11 @@
         $string = new Twine\Str('john pinkerton');
     @endcode
 
-    <blockquote class="items-start bg-blue-lightest border-l-4 border-blue-light rounded-lg shadow text-sm my-8 p-4">
-        <i class="fal fa-info-circle text-blue-light mr-1"></i>
-
-        <span class="text-grey-darker">
-            When passing a non-string parameter to the <code class="language-php">Twine\Str</code>
-            object it will be cast as a string internally.
-        </span>
-    </blockquote>
+    @info
+        When passing a non-string parameter to the
+        <code class="language-php">Twine\Str</code>
+        object it will be cast as a string internally.
+    @endinfo
 
     <p class="leading-loose my-8">
         You may also instantiate a <code class="language-php">Twine\Str</code>
