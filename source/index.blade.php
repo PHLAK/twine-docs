@@ -32,7 +32,7 @@
         <div class="billboard bg-grey-lightest border-b">
             <div class="container h-full w-full max-w-xl mx-auto py-8 text-center">
                 <h1 class="font-serif font-light text-grey-darker text-xl sm:text-3xl md:text-4xl tracking-wide mt-0 mb-4">
-                    String mainpulation, leveled up!
+                    String manipulation, leveled up!
                 </h1>
 
                 <div class="terminal inline-block w-auto rounded-lg shadow-lg overflow-hidden my-6">
