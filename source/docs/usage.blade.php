@@ -84,6 +84,8 @@
 
     @code
         is_string($string); // Returns false
+
+        $string === 'john pinkerton' // Returns false
     @endcode
 
     <p class="leading-loose my-8">
