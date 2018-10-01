@@ -24,7 +24,7 @@
                     <i class="fal fa-search fa-fw"></i>
                 </div>
 
-                <input type="text" placeholder="Search the docs" id="docsearch" class="border rounded-full shadow-inner text-grey-darker px-3 pl-10 py-2 w-full focus:outline-none" autocomplete="off" spellcheck="false">
+                <input type="text" placeholder="Search the docs" id="docsearch" class="rounded-full bg-grey-lighter text-grey-darker px-3 pl-10 py-2 w-full focus:outline-none" autocomplete="off" spellcheck="false">
             </div>
 
             <button onclick="toggleNavigation()" class="border rounded self-end ml-2 px-3 py-2 hover:bg-grey-lighter md:hidden">
