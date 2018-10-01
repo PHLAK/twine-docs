@@ -5,7 +5,7 @@
 @endsection
 
 @section('definition')
-    Twine\Str::wrap( int $width [, $break = "\n" [, bool $mode = Twine\Config\Wrap::SOFT ]] ) : Twine\Str
+    Twine\Str::wrap( int $width [, string $break = "\n" [, bool $mode = Twine\Config\Wrap::SOFT ]] ) : Twine\Str
 @endsection
 
 @section('parameters')
