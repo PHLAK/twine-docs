@@ -27,7 +27,7 @@
 
     @code(['language' => 'bash'])
         $ cd /your/awesome/project
-        $ composer install phlak/twine
+        $ composer require phlak/twine
     @endcode
 
     @attention
