@@ -20,7 +20,7 @@
 
         <div class="flex flex-row justify-end w-4/5 px-4 md:px-6">
             <div class="relative w-full md:max-w-xs">
-                <div class="flex items-center absolute pin-l pin-y ml-4 text-sm text-grey z-10 pointer-events-none">
+                <div class="flex items-center absolute left-0 inset-y-0 ml-4 text-sm text-grey z-10 pointer-events-none">
                     <i class="fal fa-search fa-fw"></i>
                 </div>
 

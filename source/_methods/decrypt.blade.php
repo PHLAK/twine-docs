@@ -37,7 +37,7 @@
 
     <p class="leading-loose my-8">Supported cipher methods:</p>
 
-    <ul class="my-4">
+    <ul class="list-disc pl-8 my-4">
         <li class="my-2">
             <code class="language-plaintext">AES-128-CBC</code>
         </li>

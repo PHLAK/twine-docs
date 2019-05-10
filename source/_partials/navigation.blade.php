@@ -3,7 +3,7 @@
         Introduction
     </p>
 
-    <ul class="list-reset ml-2">
+    <ul class="ml-2">
         <li class="mb-2">
             <a href="/docs/what-is-twine" class="block no-underline hover:underline text-grey-darkest {{ $page->getPath() == '/docs/what-is-twine' ? 'active' : null }}">
                 What is Twine?
@@ -17,7 +17,7 @@
         Getting Started
     </p>
 
-    <ul class="list-reset ml-2">
+    <ul class="ml-2">
         <li class="mb-2">
             <a href="/docs/installation" class="block no-underline hover:underline text-grey-darkest {{ $page->getPath() == '/docs/installation' ? 'active' : null }}">
                 Installation
@@ -47,7 +47,7 @@
 <div class="mb-8">
     <p class="mb-2 uppercase tracking-wide text-grey font-bold">Methods</p>
 
-    <ul class="list-reset ml-2">
+    <ul class="ml-2">
         @foreach ($methods->sort() as $method)
             <li class="mb-2">
                 <a href="/docs/methods/{{ $method->getFilename() }}" class="block no-underline hover:underline text-grey-darkest {{ $page->getPath() == "/docs/methods/{$method->getFilename()}" ? 'active' : null }}">

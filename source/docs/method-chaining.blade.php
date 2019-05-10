@@ -21,7 +21,7 @@
         $string->substring(5, 4)->equals('pink'); // Returns true
     @endcode
 
-    <p class="leading-loose my-8">Encode a file in compliance with <a href="https://tools.ietf.org/html/rfc2045">RFC 2045</a>.</p>
+    <p class="leading-loose my-8">Encode a file in compliance with <a class="text-blue underline" href="https://tools.ietf.org/html/rfc2045">RFC 2045</a>.</p>
 
     @code
         $string = new Twine\Str(file_get_contents('garbage.bin'));

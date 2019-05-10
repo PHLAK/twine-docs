@@ -11,9 +11,9 @@
 @section('content')
     <p class="leading-loose my-8">
         In order to use Twine you will need to install it on a per-project basis.
-        The recommended installation method is via PHP's <a href="https://getcomposer.org/">Composer</a>
+        The recommended installation method is via PHP's <a class="text-blue underline" href="https://getcomposer.org/">Composer</a>
         package manager. For help getting started with Composer or if you want
-        to learn more check out the official <a href="https://getcomposer.org/doc/">Composer documentation</a>.
+        to learn more check out the official <a class="text-blue underline" href="https://getcomposer.org/doc/">Composer documentation</a>.
     </p>
 
     @info

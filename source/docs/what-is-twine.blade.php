@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-    <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">
+    <h2 class="font-light text-grey-darker text-xl tracking-wide uppercase mt-12 mb-8">
         The Problem
     </h2>
 
@@ -77,7 +77,7 @@
     <p class="leading-loose my-8">
         This solves the "inside out" problem and brings the disconnected
         parameter much closer to the calling method but we've doubled the line
-        count and introduced several short-lived, <a href="https://en.wikipedia.org/wiki/Temporary_variable">temporary variables</a>.
+        count and introduced several short-lived, <a class="text-blue underline" href="https://en.wikipedia.org/wiki/Temporary_variable">temporary variables</a>.
     </p>
 
     <p class="leading-loose my-8">
@@ -109,7 +109,7 @@
     </p>
 
     <p class="leading-loose my-8">
-        So what are you waiting for?! <a href="/docs/installation">Get started with Twine</a>!
+        So what are you waiting for?! <a class="text-blue underline" href="/docs/installation">Get started with Twine</a>!
     </p>
 @endsection
 

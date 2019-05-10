@@ -21,5 +21,5 @@ mix.copy('source/_assets/js/asciinema-player.js', 'source/assets/build/js');
 
 mix.sass('source/_assets/sass/tailwind.scss', 'css/app.css').options({
     processCssUrls: false,
-    postCss: [ tailwindcss('./tailwind.js') ],
+    postCss: [ tailwindcss('./tailwind.config.js') ],
 }).version();

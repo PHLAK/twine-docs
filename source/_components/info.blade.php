@@ -1,5 +1,5 @@
 <blockquote class="relative my-8">
-    <div class="flex items-center absolute pin-l pin-y ml-4 text-blue-light">
+    <div class="flex items-center absolute left-0 inset-y-0 ml-4 text-blue-light">
         <i class="fal fa-info-circle fa-fw"></i>
     </div>
 

@@ -33,7 +33,7 @@
             <td class="p-3">
                 <p>The maximum number of elements in the exploded array.</p>
 
-                <ul class="my-4">
+                <ul class="list-disc pl-8 my-4">
                     <li class="my-2">If limit is set and positive, the returned array will contain a maximum of limit elements with the last element containing the rest of string.</li>
                     <li class="my-2">If the limit parameter is negative, all components except the last -limit are returned.</li>
                     <li class="my-2">If the limit parameter is zero, then this is treated as 1</li>

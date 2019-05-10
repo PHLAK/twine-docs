@@ -23,13 +23,13 @@
 
         <div class="container md:flex h-full max-w-2xl mx-auto">
             <div class="md:flex w-full mx-auto">
-                <nav id="navigation" class="hidden absolute pin-r bg-white border-l border-b shadow-lg p-4 text-sm md:w-1/5 md:block md:relative md:border-0 md:border-r md:px-4 md:shadow-none">
+                <nav id="navigation" class="hidden absolute right-0 bg-white border-l border-b shadow-lg p-4 text-sm md:w-1/5 md:block md:relative md:border-0 md:border-r md:px-4 md:shadow-none">
                     @include('_partials.navigation')
                 </nav>
 
                 <div class="docSearch-content w-full h-full p-4 md:w-4/5 md:px-6">
                     <div class="flex flex-row justify-between items-center mb-4">
-                        <h1 class="font-serif font-light tracking-wide">
+                        <h1 class="font-serif font-light tracking-wide text-2xl">
                             @yield('title')
                         </h1>
 
