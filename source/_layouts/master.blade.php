@@ -49,6 +49,14 @@
                             @yield('footer')
                         </div>
                     @endif
+
+                    <script src="https://utteranc.es/client.js"
+                        repo="phlak/twine-comments"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                    </script>
                 </div>
             </div>
         </div>
