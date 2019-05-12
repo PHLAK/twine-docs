@@ -11,7 +11,7 @@
 @section('content')
     <p class="leading-loose my-8">A Twine string can be manipulated fluently by chaining methods.</p>
 
-    <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">Example Method Chains</h2>
+    <h2 class="font-light text-grey-darker text-2xl tracking-wide uppercase mt-12 mb-8">Example Method Chains</h2>
 
     <p class="leading-loose my-8">Perform a substring comparison.</p>
 

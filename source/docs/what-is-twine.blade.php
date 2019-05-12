@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-    <h2 class="font-light text-grey-darker text-xl tracking-wide uppercase mt-12 mb-8">
+    <h2 class="font-light text-grey-darker text-2xl tracking-wide uppercase mt-12 mb-8">
         The Problem
     </h2>
 
@@ -85,7 +85,7 @@
         perfectly fine. However, don't you think we can do better.
     </p>
 
-    <h3 class="font-serif font-light text-grey-dark tracking-wide mt-12 mb-8">
+    <h3 class="font-serif font-light text-xl text-grey-dark tracking-wide mt-12 mb-8">
         Enter Twine
     </h3>
 

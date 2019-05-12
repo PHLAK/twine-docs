@@ -29,7 +29,7 @@
 
                 <div class="docSearch-content w-full h-full p-4 md:w-4/5 md:px-6">
                     <div class="flex flex-row justify-between items-center mb-4">
-                        <h1 class="font-serif font-light tracking-wide text-2xl">
+                        <h1 class="font-serif font-light tracking-wide text-3xl">
                             @yield('title')
                         </h1>
 

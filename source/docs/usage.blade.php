@@ -115,7 +115,7 @@
         See the <a class="text-blue underline" href="/docs/method-chaining">Method Chaining</a> section for more info and examples.
     </p>
 
-    <h2 class="font-light text-grey-darker tracking-wide uppercase mt-12 mb-8">
+    <h2 class="font-light text-grey-darker text-2xl tracking-wide uppercase mt-12 mb-8">
         Usage Tips
     </h2>
 
