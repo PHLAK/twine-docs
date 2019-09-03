@@ -20,6 +20,6 @@
         "tailwindcss": "^1.0.1",
         "vue-template-compiler": "^2.6.10",
         "webpack-watch": "^0.2.0",
-        "yargs": "^4.6.0"
+        "yargs": "^14.0.0"
     }
 }
