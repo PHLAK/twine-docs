@@ -1,0 +1,21 @@
+[build]
+  command = 'npm run production && vendor/bin/jigsaw build production'
+  publish = 'build_production'
+
+[[redirects]]
+  from = 'http://twine-php.netlify.com/*'
+  to = 'https://twine.phlak.net/:splat'
+  status = 301
+  force = true
+
+[[redirects]]
+  from = 'https://twine-php.netlify.com/*'
+  to = 'https://twine.phlak.net/:splat'
+  status = 301
+  force = true
+
+[[redirects]]
+  from = 'http://twine.phlak.net/*'
+  to = 'https://twine.phlak.net/:splat'
+  status = 301
+  force = true
