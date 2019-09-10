@@ -10,7 +10,10 @@ mix.webpackConfig({
         build.jigsaw,
         build.browserSync(),
         build.watch(['source/**/*.md', 'source/**/*.php', 'source/**/*.scss', '!source/**/_tmp/*']),
-    ]
+    ],
+    watchOptions: {
+        ignored: /node_modules/
+    }
 });
 
 mix.js([
