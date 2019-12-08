@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="p-1 roiunded-b-lg" style="background-color: #121314">
-                        <asciinema-player src="/assets/twine.cast" autoplay="true" loop="1" font-size=".875rem"></asciinema-player>
+                        <asciinema-player src="/assets/twine.cast" autoplay="true" font-size=".875rem" speed="1.5"></asciinema-player>
                     </div>
                 </div>
 
