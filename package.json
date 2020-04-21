@@ -5,6 +5,7 @@
         "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "dev": "npm run local",
+        "prod": "npm run production",
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
@@ -13,6 +14,7 @@
         "cross-env": "^7.0.2",
         "hasbin": "^1.2.3",
         "laravel-mix": "^5.0.4",
+        "laravel-mix-jigsaw": "^1.1.0",
         "laravel-mix-purgecss": "^4.2.0",
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
