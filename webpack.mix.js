@@ -7,10 +7,6 @@ require('laravel-mix-purgecss');
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
 mix.webpackConfig({
-    plugins: [
-        build.browserSync(),
-        build.watch(['source/**/*.md', 'source/**/*.php', 'source/**/*.scss', '!source/**/_tmp/*']),
-    ],
     watchOptions: {
         ignored: /node_modules/
     }
