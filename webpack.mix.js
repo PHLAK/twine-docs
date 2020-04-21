@@ -6,9 +6,6 @@ require('laravel-mix-purgecss');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath('source/assets/build');
-mix.jigsaw();
-
-
 mix.webpackConfig({
     plugins: [
         build.browserSync(),
@@ -18,6 +15,8 @@ mix.webpackConfig({
         ignored: /node_modules/
     }
 });
+
+mix.jigsaw();
 
 mix.js([
     'source/_assets/js/prism.js',
