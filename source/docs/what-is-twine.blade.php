@@ -24,11 +24,11 @@
         Consider the following snippet of code for a moment.
     </p>
 
-    @code
+    <x-code>
         $contents = file_get_contents('garbage.bin');
 
         return str_replace("\n", '&lt;br&gt;', wordwrap(base64_encode($contents), 80)));
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
          With a little analysys we can determine that this code does the following:
@@ -66,13 +66,13 @@
         to address these issues specifically.
     </p>
 
-    @code
+    <x-code>
         $contents = file_get_contents('garbage.bin');
         $base64 = base64_encode($contents);
         $wrapped = wordwrap($base64, 80);
 
         return str_replace("\n", '&lt;br&gt;', $wrapped);
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         This solves the "inside out" problem and brings the disconnected
@@ -96,11 +96,11 @@
         PHP. Using Twine we can re-write the snippet like so:
     </p>
 
-    @code
+    <x-code>
         $string = new Twine\Str(file_get_contents('garbage.bin'))
 
         return $string->base64()->wrap(80)->replace("\n", '&lt;br&gt;');
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         Now doesn't that read better? With Twine we've solved the "inside out"
@@ -118,9 +118,9 @@
         <div class="flex-1 text-left"></div>
 
         <div class="flex-1 text-right">
-            @button(['link' => '/docs/installation'])
+            <x-button link="/docs/installation">
                 Installation <i class="fal fa-angle-right"></i>
-            @endbutton
+            </x-button>
         </div>
     </div>
 @endsection

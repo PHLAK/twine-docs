@@ -89,31 +89,31 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->pad(20, '_');  // Returns 'john pinkerton______'
         $string->pad(20, '_', Twine\Config\Pad::LEFT); // Returns '______john pinkerton'
         $string->pad(20, '_', Twine\Config\Pad::BOTH); // Returns '___john pinkerton___'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->padRight(20, '_');  // Returns 'john pinkerton______'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->padLeft(20, '_'); // Returns '______john pinkerton'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->padBoth(20, '_'); // Returns '___john pinkerton___'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

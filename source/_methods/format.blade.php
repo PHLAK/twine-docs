@@ -25,9 +25,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('Hello %s! Welcome to %s, population %b.');
 
         $string->format('John', 'Pinkertown', 1337); // Returns 'Hello John! Welcome to Pinkertown, population 10100111001.'
-    @endcode
+    </x-code>
 @endsection

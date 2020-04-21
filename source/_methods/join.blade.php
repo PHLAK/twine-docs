@@ -37,23 +37,23 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $first = new Twine\Str('john');
         $last = new Twine\Str('pinkerton');
 
         $first->join($last); // Returns 'john pinkerton'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $min = new Twine\Str('1');
         $max = new Twine\Str('100');
 
         $min->join($max, '-'); // Returns '1-100'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $file = new Twine\Str('noclist.txt');
 
         $file->join('bak', '.'); // Returns 'noclist.txt.bak'
-    @endcode
+    </x-code>
 @endsection

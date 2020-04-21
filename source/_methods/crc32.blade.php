@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->crc32(); // Returns 3367853299
-    @endcode
+    </x-code>
 @endsection

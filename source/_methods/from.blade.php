@@ -37,10 +37,10 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->from('pink'); // Returns 'pinkerton'
         $string->from('purple'); // Returns ''
-    @endcode
+    </x-code>
 @endsection

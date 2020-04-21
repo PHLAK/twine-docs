@@ -49,12 +49,12 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->replace('john', 'bob'); // Returns 'bob pinkerton'
         $string->replace(['a', 'e', 'i', 'o', 'u'], 'x'); // Returns 'jxhn pxnkxrtxn'
         $string->replace(['o', 'n'], ['a', 'm']); // Returns 'jahm pimkertam'
         $string->replace('n', 'x', $count); // Returns 'johx pixkertox' and $count will be 3
-    @endcode
+    </x-code>
 @endsection

@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->length(); // Returns 14
-    @endcode
+    </x-code>
 @endsection

@@ -53,9 +53,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->md5(); // Returns '30cac4703a16a2201ec5cafbd600d803'
-    @endcode
+    </x-code>
 @endsection

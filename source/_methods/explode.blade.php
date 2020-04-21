@@ -44,15 +44,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->explode(' '); // Returns ['john', 'pinkerton']
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john maurice mcclean pinkerton');
 
         $string->explode(' ', 3); // Returns ['john', 'maurice', 'mcclean pinkerton']
-    @endcode
+    </x-code>
 @endsection

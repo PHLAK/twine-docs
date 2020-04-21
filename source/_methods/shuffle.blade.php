@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->shuffle(); // Returns something like 'nphjin erkotno'
-    @endcode
+    </x-code>
 @endsection

@@ -9,15 +9,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str(" \r\n\t");
 
         $string->isWhitespace(); // Returns true
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->isWhitespace(); // Returns false
-    @endcode
+    </x-code>
 @endsection

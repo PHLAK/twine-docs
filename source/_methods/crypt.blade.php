@@ -26,9 +26,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->crypt('NaCl'); // Returns 'Naq9mOMsN7Yac'
-    @endcode
+    </x-code>
 @endsection

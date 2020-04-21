@@ -65,14 +65,14 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->equals('john pinkerton'); // Returns true
         $string->equals('JoHN PiNKeRToN'); // Returns false
         $string->equals('JoHN PiNKeRToN', Twine\Config\Equals::CASE_INSENSITIVE); // Returns true
         $string->equals('BoB BeLCHeR', Twine\Config\Equals::CASE_INSENSITIVE); // Returns false
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

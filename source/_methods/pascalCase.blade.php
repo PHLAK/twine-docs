@@ -9,11 +9,11 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->pascalCase(); // Returns 'JohnPinkerton'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

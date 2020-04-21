@@ -10,9 +10,9 @@
 
 @section('content')
     <div class="my-8 text-lg">
-        @code
+        <x-code>
             @yield('definition')
-        @endcode
+        </x-code>
     </div>
 
     @hasSection('parameters')

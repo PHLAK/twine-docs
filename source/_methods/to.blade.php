@@ -25,15 +25,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->to('pink'); // Returns 'john pink'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->to('purple'); // Returns ''
-    @endcode
+    </x-code>
 @endsection

@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->uppercaseWords(); // Returns 'John Pinkerton'
-    @endcode
+    </x-code>
 @endsection

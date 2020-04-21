@@ -77,31 +77,31 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('  john pinkerton    ');
 
         $string->trim(); // Returns 'john pinkerton'
         $string->trim(Twine\Config\Trim::LEFT); // Returns 'john pinkerton    '
         $string->trim(Twine\Config\Trim::RIGHT); // Returns '  john pinkerton'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->trim('jton'); // Returns 'hn pinker'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('  john pinkerton    ');
 
         $string->trimLeft(); // Returns 'john pinkerton    '
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('  john pinkerton    ');
 
         $string->trimRight(); // Returns '  john pinkerton'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

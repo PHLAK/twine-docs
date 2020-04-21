@@ -65,25 +65,25 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('JOHN PINKERTON');
 
         $string->lowercase(); // Returns 'john pinkerton'
         $string->lowercase(Twine\Config\Lowercase::FIRST); // Returns 'jOHN PINKERTON'
         $string->lowercase(Twine\Config\Lowercase::WORDS); // Returns 'jOHN pINKERTON'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('JOHN PINKERTON');
 
         $string->lowercaseFirst(); // Returns 'jOHN PINKERTON'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('JOHN PINKERTON');
 
         $string->lowercaseWords(); // Returns 'jOHN pINKERTON'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

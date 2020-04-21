@@ -25,10 +25,10 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->contains('pink'); // Returns true
         $string->contains('purple'); // Returns false
-    @endcode
+    </x-code>
 @endsection

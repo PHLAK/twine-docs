@@ -33,9 +33,9 @@
                             @yield('title')
                         </h1>
 
-                        @button(['link' => $page->editLink()])
+                        <x-button :link="$page->editLink()">
                             <i class="fal fa-edit"></i> <span class="hidden sm:inline-block">Improve this Page</span>
-                        @endbutton
+                        </x-button>
                     </div>
 
                     <p class="text-grey-dark text-lg leading-normal mb-8">

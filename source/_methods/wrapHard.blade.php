@@ -37,9 +37,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->wrapHard(5); // Returns "john\npinke\nrton"
-    @endcode
+    </x-code>
 @endsection

@@ -25,9 +25,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->bcrypt(['salt' => 'NaClNaClNaClNaClNaClNaCl']); // Returns '$2y$10$NaClNaClNaClNaClNaClNOMtb0r8BE2WGaLqvGur17DqtgjsWl0lW'
-    @endcode
+    </x-code>
 @endsection

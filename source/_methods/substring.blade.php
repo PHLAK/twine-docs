@@ -37,11 +37,11 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->substring(5, 4); // Returns 'pink'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

@@ -25,9 +25,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->first(4); // Returns 'john'
-    @endcode
+    </x-code>
 @endsection

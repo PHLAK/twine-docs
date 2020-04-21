@@ -53,29 +53,29 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->base64(); // Returns 'am9obiBwaW5rZXJ0b24='
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('am9obiBwaW5rZXJ0b24=');
 
         $string->base64(Twine\Config\Base64::DECODE); // Returns 'john pinkerton'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->base64Encode(); // Returns 'am9obiBwaW5rZXJ0b24='
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('am9obiBwaW5rZXJ0b24=');
 
         $string->base64Decode(); // Returns 'john pinkerton'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

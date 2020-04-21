@@ -53,29 +53,29 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->hex(); // Returns '\x6a\x6f\x68\x6e\x20\x70\x69\x6e\x6b\x65\x72\x74\x6f\x6e'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('\x6a\x6f\x68\x6e\x20\x70\x69\x6e\x6b\x65\x72\x74\x6f\x6e');
 
         $string->hex(Twine\Config\Hex::DECODE); // Returns 'john pinkerton'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->hexEncode(); // Returns '\x6a\x6f\x68\x6e\x20\x70\x69\x6e\x6b\x65\x72\x74\x6f\x6e'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('\x6a\x6f\x68\x6e\x20\x70\x69\x6e\x6b\x65\x72\x74\x6f\x6e');
 
         $string->hexDecode(); // Returns 'john pinkerton'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

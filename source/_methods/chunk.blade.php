@@ -25,9 +25,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->chunk(3); // Returns ['joh', 'n p', 'ink', 'ert', 'on']
-    @endcode
+    </x-code>
 @endsection

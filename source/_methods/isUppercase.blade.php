@@ -9,15 +9,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('JOHNPINKERTON');
 
         $string->isUppercase(); // Returns true
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('JohnPinkerton');
 
         $string->isUppercase(); // Returns false
-    @endcode
+    </x-code>
 @endsection

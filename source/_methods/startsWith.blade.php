@@ -25,10 +25,10 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->startsWith('john'); // Returns true
         $string->startsWith('pinkerton'); // Returns false
-    @endcode
+    </x-code>
 @endsection

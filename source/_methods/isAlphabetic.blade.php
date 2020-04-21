@@ -9,15 +9,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('JohnPinkerton');
 
         $string->isAlphabetic(); // Returns true
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->isAlphabetic(); // Returns false
-    @endcode
+    </x-code>
 @endsection

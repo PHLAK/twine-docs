@@ -9,33 +9,33 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
-        
+
         $string->words(); // Returns ['john', 'pinkerton']
-    @endcode
-    
-    @code
+    </x-code>
+
+    <x-code>
         $string = new Twine\Str('johnPinkerton');
 
         $string->words(); // Returns ['john', 'Pinkerton']
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john_pinkerton');
 
         $string->words(); // Returns ['john', 'pinkerton']
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john-pinkerton');
-        
+
         $string->words(); // Returns ['john', 'pinkerton']
-    @endcode
-    
-    @code
+    </x-code>
+
+    <x-code>
         $string = new Twine\Str('JohnPinkerton');
 
         $string->words(); // Returns ['John', 'Pinkerton']
-    @endcode
+    </x-code>
 @endsection

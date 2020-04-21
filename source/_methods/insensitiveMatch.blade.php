@@ -25,10 +25,10 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->insensitiveMatch('JoHN PiNKeRToN'); // Returns true
         $string->insensitiveMatch('BoB BeLCHeR'); // Returns false
-    @endcode
+    </x-code>
 @endsection

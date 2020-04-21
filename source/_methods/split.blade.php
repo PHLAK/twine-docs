@@ -25,10 +25,10 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->split(2); // Returns ['john pi ', 'nkerton']
         $string->split(3); // Returns ['john ', 'pinke', 'rton']
-    @endcode
+    </x-code>
 @endsection

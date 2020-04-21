@@ -25,10 +25,10 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->matches('/[a-z]+ [a-z]+/'); // Returns true
         $string->matches('/[0-9]+/'); // Returns false
-    @endcode
+    </x-code>
 @endsection

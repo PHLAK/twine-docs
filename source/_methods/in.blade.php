@@ -65,28 +65,28 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('pink');
 
         $string->in('john pinkerton'); // Returns true
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('purple');
 
         $string->in('john pinkerton'); // Returns false
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('Pink');
 
         $string->in('john pinkerton', Twine\Config\In::CASE_INSENSITIVE); // Returns true
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $color = new Twine\Str('pink');
         $name = new Twine\Str('john pinkerton');
 
         $color->in($name); // Returns true
-    @endcode
+    </x-code>
 @endsection

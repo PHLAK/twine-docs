@@ -13,13 +13,13 @@
         Using Twine is simple, once installed start by importing the library.
     </p>
 
-    @code
+    <x-code>
         &lt;?php
 
         use PHLAK\Twine;
 
         // ...
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         Next you must instatiate a Twine object. There are multiple ways to
@@ -34,24 +34,24 @@
         as the first and only parameter.
     </p>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
-    @endcode
+    </x-code>
 
-    @info
+    <x-info>
         When passing a non-string parameter to the
         <code class="language-php">Twine\Str</code>
         object it will be cast as a string internally.
-    @endinfo
+    </x-info>
 
     <p class="leading-loose my-8">
         You may also instantiate a <code class="language-php">Twine\Str</code>
         object statically via the <code class="language-php">make()</code> method.
     </p>
 
-    @code
+    <x-code>
         $string = Twine\Str::make('john pinkerton');
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         Twine also comes with a global <code class="language-php">str()</code>
@@ -59,9 +59,9 @@
         returns a <code class="language-php">Twine\Str</code> object.
     </p>
 
-    @code
+    <x-code>
         $string = str('john pinkerton');
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         Once you have a concrete <code class="language-php">Twine\Str</code>
@@ -69,47 +69,47 @@
         it or using any of PHPs built in string functions against it.
     </p>
 
-    @code
+    <x-code>
         echo $string; // Echos 'john pinkerton'
 
         str_shuffle($string) // Returns something like 'enoipo ktnjhnr'
 
         strlen($string); // Returns 14
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         Keep in mind that a <code class="language-php">Twine\Str</code> object
         is <em>not</em> an actual a string primitive.
     </p>
 
-    @code
+    <x-code>
         is_string($string); // Returns false
 
         $string === 'john pinkerton' // Returns false
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         At this point you're ready to start using Twine by calling any of it's
         many built in methods.
     </p>
 
-    @code
+    <x-code>
         $string->substring(5, 4); // Returns 'pink'
 
         $string->uppercaseWords(); // Returns 'John Pinkerton'
 
         $string->words(); // Returns ['john', 'pinkerton']
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         You can even chain these together for advanced functionality and ease of use.
     </p>
 
-    @code
+    <x-code>
         $string->substring(5, 4)->equals('pink'); // Returns true
 
         $string->prepend('mr. ')->uppercaseWords(); // Returns 'Mr. John Pinkerton'
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">
         See the <a class="text-blue underline" href="/docs/method-chaining">Method Chaining</a> section for more info and examples.
@@ -125,27 +125,27 @@
         immediately after in a single line.
     </p>
 
-    @code
+    <x-code>
         Twine\Str::make('john pinkerton')->uppercaseWords();
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         str('john pinkerton')->uppercaseWords();
-    @endcode
+    </x-code>
 @endsection
 
 @section('footer')
     <div class="flex flex-row justify-between items-center">
         <div class="flex-auto text-left">
-            @button(['link' => '/docs/installation'])
+            <x-button link="/docs/installation">
                 <i class="fal fa-angle-left"></i> Installation
-            @endbutton
+            </x-button>
         </div>
 
         <div class="flex-auto text-right">
-            @button(['link' => '/docs/method-chaining'])
+            <x-button link="/docs/method-chaining">
                 Method Chaining <i class="fal fa-angle-right"></i>
-            @endbutton
+            </x-button>
         </div>
     </div>
 @endsection

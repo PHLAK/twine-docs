@@ -25,9 +25,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('beetlejuice');
 
         $string->repeat(3); // Returns 'beetlejuicebeetlejuicebeetlejuice'
-    @endcode
+    </x-code>
 @endsection

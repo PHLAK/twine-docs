@@ -15,33 +15,33 @@
 
     <p class="leading-loose my-8">Perform a substring comparison.</p>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->substring(5, 4)->equals('pink'); // Returns true
-    @endcode
+    </x-code>
 
     <p class="leading-loose my-8">Encode a file in compliance with <a class="text-blue underline" href="https://tools.ietf.org/html/rfc2045">RFC 2045</a>.</p>
 
-    @code
+    <x-code>
         $string = new Twine\Str(file_get_contents('garbage.bin'));
 
         $string->base64()->wrap(76, "\r\n", Twine\Config\Wrap::HARD);
-    @endcode
+    </x-code>
 @endsection
 
 @section('footer')
     <div class="flex flex-row justify-between items-center">
         <div class="flex-auto text-left">
-            @button(['link' => '/docs/usage'])
+            <x-button link="/docs/usage">
                 <i class="fal fa-angle-left"></i> Usage
-            @endbutton
+            </x-button>
         </div>
 
         <div class="flex-auto text-right">
-            @button(['link' => '/docs/troubleshooting'])
+            <x-button link="/docs/troubleshooting">
                 Troubleshooting <i class="fal fa-angle-right"></i>
-            @endbutton
+            </x-button>
         </div>
     </div>
 @endsection

@@ -37,9 +37,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->padBoth(20, '_'); // Returns '___john pinkerton___'
-    @endcode
+    </x-code>
 @endsection

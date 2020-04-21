@@ -49,9 +49,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('$DZpEm9ZFec9ybxF7$y2rc62EapV8p+xOKGaQHKA==$pKe7S3T7tf8jaXWpUHc=');
 
         $string->decrypt('secret'); // Returns 'john pinkerton'
-    @endcode
+    </x-code>
 @endsection

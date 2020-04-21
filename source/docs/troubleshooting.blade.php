@@ -26,9 +26,9 @@
 @section('footer')
     <div class="flex flex-row justify-between items-center">
         <div class="flex-1 text-left">
-            @button(['link' => '/docs/method-chaining'])
+            <x-button link="/docs/method-chaining">
                 <i class="fal fa-angle-left"></i> Method Chaining
-            @endbutton
+            </x-button>
         </div>
 
         <div class="flex-1 text-right"></div>

@@ -25,9 +25,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('How much wood could a woodchuck chuck if a woodchuck could chuck wood?');
 
         $string->count('wood'); // Returns 4
-    @endcode
+    </x-code>
 @endsection

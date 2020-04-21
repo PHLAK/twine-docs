@@ -53,9 +53,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->sha256(); // Returns '7434f26c8c2fc83e57347feb2dfb235c2f47b149b54b80692beca9d565159dfd'
-    @endcode
+    </x-code>
 @endsection

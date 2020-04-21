@@ -53,15 +53,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john+pinkerton/john=pinkerton');
 
         $string->url(); // Returns 'john%2Bpinkerton%2Fjohn%3Dpinkerton'
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $path = new Twine\Str('/some/file/path.txt');
 
         $path->urlencode(); // Returns '%2Fsome%2Ffile%2Fpath.txt'
-    @endcode
+    </x-code>
 @endsection

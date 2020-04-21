@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->reverse(); // Returns 'notreknip nhoj'
-    @endcode
+    </x-code>
 @endsection

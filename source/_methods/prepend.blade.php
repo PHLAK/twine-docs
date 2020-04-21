@@ -25,18 +25,18 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->prepend('mr '); // Returns 'mr john pinkerton'
-    @endcode
-    
-    @code
+    </x-code>
+
+    <x-code>
         $first = new Twine\Str('john');
         $last = new Twine\Str('pinkerton');
 
         $last->prepend('mr', ' ', $first); // Returns 'mr john pinkerton'
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

@@ -37,11 +37,11 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->truncate(12); // Returns 'john pink...'
         $string->truncate(10, '~'); // Returns 'john pink~'
         $string->truncate(8); // Returns 'john...'
-    @endcode
+    </x-code>
 @endsection

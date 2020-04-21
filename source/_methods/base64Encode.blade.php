@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->base64Encode(); // Returns 'am9obiBwaW5rZXJ0b24='
-    @endcode
+    </x-code>
 @endsection

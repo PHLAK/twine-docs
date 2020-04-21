@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('JOHN PINKERTON');
 
         $string->lowercaseFirst(); // Returns 'jOHN PINKERTON'
-    @endcode
+    </x-code>
 @endsection

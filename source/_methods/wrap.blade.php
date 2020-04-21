@@ -77,24 +77,24 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->wrap(5); // Returns "john\npinkerton"
         $string->wrap(5, "\n", Twine\Config\Wrap::HARD); // Returns "john\npinke\nrton"
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->wrapSoft(5); // Returns "john\npinkerton"
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->wrapHard(5); // Returns "john\npinke\nrton"
-    @endcode
+    </x-code>
 @endsection
 
 @section('aliases')

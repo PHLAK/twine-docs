@@ -53,15 +53,15 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $characters = $string->characters(); // Returns  ['j', 'o', 'h', 'n', ' ', 'p', 'i', 'n', 'k', 'e', 'r', 't', 'o', 'n']
-    @endcode
+    </x-code>
 
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $characters = $string->characters(Twine\Config\Characters::UNIQUE); // Returns ['j', 'o', 'h', 'n', ' ', 'p', 'i', 'k', 'e', 'r', 't']
-    @endcode
+    </x-code>
 @endsection

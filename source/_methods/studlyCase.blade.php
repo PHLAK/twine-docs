@@ -9,9 +9,9 @@
 @endsection
 
 @section('examples')
-    @code
+    <x-code>
         $string = new Twine\Str('john pinkerton');
 
         $string->studlyCase(); // Returns 'JohnPinkerton'
-    @endcode
+    </x-code>
 @endsection
