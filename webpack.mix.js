@@ -25,9 +25,3 @@ mix.sass('source/_assets/sass/tailwind.scss', 'css/app.css').options({
     processCssUrls: false,
     postCss: [tailwindcss('tailwind.config.js')],
 }).version();
-
-mix.purgeCss({
-    folders: ['source'],
-    whitelist: ['html', 'body', 'code', 'pre'],
-    whitelistPatterns: [/^asciinema\-/, /^fa\-/]
-});

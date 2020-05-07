@@ -922,5 +922,5 @@ module.exports = {
 
   plugins: [],
 
-  purge: false,
+  purge: ['source/**/*.php'],
 }
