@@ -10,3 +10,6 @@ prod production: # Build application for production
 
 update upgrade: # Update application dependencies
 	@composer update && npm update && npm install && npm audit fix
+
+outdated: # Show outdated dependencies
+	@composer show --direct --outdated && npm outdated
