@@ -9,4 +9,4 @@ prod production: # Build application for production
 	@vendor/bin/jigsaw build production
 
 update upgrade: # Update application dependencies
-	@composer update && npm update && npm install
+	@composer update && npm update && npm install && npm audit fix
