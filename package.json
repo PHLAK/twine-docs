@@ -20,7 +20,7 @@
         "on-build-webpack": "^0.1.0",
         "sass": "^1.26.10",
         "sass-loader": "^9.0.3",
-        "tailwindcss": "^1.6.2",
+        "tailwindcss": "^1.9.5",
         "vue-template-compiler": "^2.6.11",
         "webpack-watch": "^0.2.0",
         "yargs": "^15.4.1"
