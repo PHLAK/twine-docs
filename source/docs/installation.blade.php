@@ -25,7 +25,7 @@
         from your application's root directory to install Twine.
     </p>
 
-    <x-code>(['language' => 'bash'])
+    <x-code>
         $ cd /your/awesome/project
         $ composer require phlak/twine
     </x-code>
