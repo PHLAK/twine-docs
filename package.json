@@ -11,15 +11,23 @@
     "devDependencies": {
         "browser-sync": "^2.26.13",
         "browser-sync-webpack-plugin": "^2.0.1",
-        "cross-env": "^7.0.2",
+        "cross-env": "^7.0.3",
         "hasbin": "^1.2.3",
+<<<<<<< HEAD
         "laravel-mix": "^5.0.7",
+=======
+        "laravel-mix": "^5.0.9",
+>>>>>>> Updated dependencies
         "laravel-mix-jigsaw": "^1.4.0",
         "laravel-mix-purgecss": "^5.0.0",
         "node-cmd": "^3.0.0",
         "on-build-webpack": "^0.1.0",
         "sass": "^1.29.0",
+<<<<<<< HEAD
         "sass-loader": "^10.0.5",
+=======
+        "sass-loader": "^9.0.3",
+>>>>>>> Updated dependencies
         "tailwindcss": "^1.9.6",
         "vue-template-compiler": "^2.6.12",
         "webpack-watch": "^0.2.0",
