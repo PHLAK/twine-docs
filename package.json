@@ -18,7 +18,7 @@
         "laravel-mix-purgecss": "^5.0.0",
         "node-cmd": "^4.0.0",
         "on-build-webpack": "^0.1.0",
-        "sass": "^1.30.0",
+        "sass": "^1.32.8",
         "sass-loader": "^10.1.0",
         "tailwindcss": "^1.9.6",
         "vue-template-compiler": "^2.6.12",
