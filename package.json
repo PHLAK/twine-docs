@@ -14,7 +14,7 @@
         "laravel-mix": "^6.0.16",
         "laravel-mix-jigsaw": "^1.4.0",
         "laravel-mix-purgecss": "^6.0.0",
-        "node-cmd": "^4.0.0",
+        "node-cmd": "^5.0.0",
         "on-build-webpack": "^0.1.0",
         "sass": "^1.30.0",
         "sass-loader": "^11.0.1",
