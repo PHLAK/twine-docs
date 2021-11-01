@@ -11,7 +11,7 @@
         "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env": "^7.0.3",
         "hasbin": "^1.2.3",
-        "laravel-mix": "^6.0.16",
+        "laravel-mix": "^6.0.37",
         "laravel-mix-jigsaw": "^1.4.0",
         "laravel-mix-purgecss": "^6.0.0",
         "node-cmd": "^4.0.0",
