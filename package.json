@@ -17,7 +17,7 @@
         "node-cmd": "^4.0.0",
         "on-build-webpack": "^0.1.0",
         "sass": "^1.30.0",
-        "sass-loader": "^11.0.1",
+        "sass-loader": "^13.1.0",
         "tailwindcss": "^1.9.6",
         "vue-template-compiler": "^2.6.12",
         "webpack-watch": "^0.2.0",
